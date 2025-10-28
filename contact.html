@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Success GC</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav-wrap">
+    <div class="container nav">
+      <div class="brand"><a href="index.html">Success GC</a></div>
+      <nav class="nav-links" id="navLinksContact">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="works.html">Works</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="hamburger" id="hamburgerContact">☰</button>
+    </div>
+  </header>
+
+  <main class="container page" data-fade>
+    <h1>Contact</h1>
+    <p class="lead">Reach out for collaborations, builds, or workshops.</p>
+
+    <div class="contact-grid">
+      <form id="contactForm" class="contact-form">
+        <label><input type="text" name="name" placeholder="Your name" required></label>
+        <label><input type="email" name="email" placeholder="Your email" required></label>
+        <label><textarea name="message" rows="6" placeholder="Your message" required></textarea></label>
+        <button class="btn primary" type="submit">Send Message</button>
+        <p class="note">Note: This is a static site. To make the form send real emails, add a backend or use a service like Formspree, Netlify Forms, or EmailJS.</p>
+      </form>
+
+      <aside class="contact-info">
+        <h3>Direct contact</h3>
+        <p>📧 <a href="mailto:gcsuccess2@gmail.com">gcsuccess2@gmail.com</a></p>
+        <p>📞 9857061305</p>
+        <h4>Social</h4>
+        <p class="social"><a href="#">Instagram</a> • <a href="#">YouTube</a> • <a href="#">Facebook</a></p>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Contact</h4>
+        <p>📧 <a href="mailto:gcsuccess2@gmail.com">gcsuccess2@gmail.com</a><br>📞 9857061305</p>
+      </div>
+      <div>
+        <h4>Follow</h4>
+        <p class="social"><a href="#">Instagram</a> • <a href="#">YouTube</a></p>
+      </div>
+      <div>
+        <h4>Copyright</h4>
+        <p>© <span id="year5"></span> Success GC</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
